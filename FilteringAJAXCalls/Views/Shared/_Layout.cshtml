@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="Manage Authorization in View & AJAX Request"/>
+    <meta name="author" content="knivek91"/>
+    <meta name="keywords" content="knivek91, ASP.NET, AJAX, https://github.com/knivek91/, ASP.NET Filter, Manage Filtering"/>
+    <meta name="description" content="https://github.com/knivek91/. Manage Authorization in View & AJAX Request Using the Filters in ASP.NET as a Decorator in the Controller and Methods"/>
     <title>@ViewBag.Title - Manage Authorization in View & AJAX Request</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -16,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Knivek91", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a href="https://github.com/knivek91/FilteringAJAX-ViewCalls" class="navbar-brand">@@Knivek91</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -36,6 +40,8 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

@@ -51,5 +51,12 @@ namespace Controllers
             return "Clean";
         }
 
+        [HttpGet]
+        public string NullSession()
+        {
+            Session["MySession"] = null;
+            return "Clean";
+        }
+
     }
 }
